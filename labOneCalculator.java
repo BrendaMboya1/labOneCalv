@@ -7,11 +7,19 @@ public static void main (String []a){
      double ans= one+ two;
      System.out.println("the sum of the two numbers is "+ans);
   }
+
   if(a[0].equals("subtract")){
     double one= Double.parseDouble(a[1]);
      double two= Double.parseDouble(a[2]);
      double ans= one-two;
      System.out.println("the difference of the two numbers is : "+ans);
+  }
+   if(a[0].equals("multiply")){
+    double one= Double.parseDouble(a[1]);
+     double two= Double.parseDouble(a[2]);
+     double ans= one*two;
+     System.out.println("the product of the two numbers is "+ans);
+
   }
   
   /*Scanner input=  new Scanner(System.in);
