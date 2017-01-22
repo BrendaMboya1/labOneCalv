@@ -1,3 +1,8 @@
+/*@author Brenda Mboya 
+ * This is a simple calculator that runs on console.
+ * The division part of the program was added by my partner @Constant Likudie
+ **/
+
 import java.util.*;
 public class labOneCalculator{
 public static void main (String []a){
